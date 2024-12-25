@@ -1,4 +1,4 @@
-# Create My React App
+# create-my-react-app
 
 `create-my-react-app` is a lightweight CLI tool for generating React project templates effortlessly. It scaffolds a ready-to-use React application with a simple folder structure, essential files, and pre-installed dependencies.
 
