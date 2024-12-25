@@ -16,3 +16,40 @@ No installation is needed! Run the tool directly with `npx`:
 
 ```bash
 npx create-my-react-app <project-name>
+Alternatively, you can clone the repository and run the tool locally:
+
+bash
+Copy code
+git clone https://github.com/your-username/create-my-react-app.git
+cd create-my-react-app
+npm link
+create-my-react-app <project-name>
+Usage
+Run the following command to create a new React project:
+
+bash
+Copy code
+npx create-my-react-app my-new-app
+Output Structure
+After running the command, the following structure is created:
+
+java
+Copy code
+my-new-app/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+├── package.json
+├── node_modules/
+├── .gitignore
+Start Development
+Navigate to the project directory, install dependencies (if not already installed), and start the development server:
+
+bash
+Copy code
+cd my-new-app
+npm start
